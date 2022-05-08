@@ -39,9 +39,11 @@ Software – Quartus prime
 ## Program:
 /*
 Program to design a Implementation of combinational logic using universal gates-  and verify its truth table in quartus using Verilog programming.
+```
 Developed by: 212221230025
 RegisterNumber: Evangelin.S 
 */
+```
 
 ```
 ## F=((C'.B.A)'(D'.C.A)'(C.B'.A)')' using NAND gate
@@ -57,8 +59,8 @@ assign F = (~P&~Q&~R);
 endmodule
 ```
 
-## F=(((C.B'.A)+(D.C'.A)+(C.B'.A))')' using NOR gate
 ```
+## F=(((C.B'.A)+(D.C'.A)+(C.B'.A))')' using NOR gate
 module norcombination(A,B,C,D,F);
 input A,B,C,D;
 output F;
