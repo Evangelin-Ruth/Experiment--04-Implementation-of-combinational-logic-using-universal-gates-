@@ -55,9 +55,10 @@ assign Q = D&(~C)&(~A);
 assign R = (~C)&B&(~A);
 assign F = (~P&~Q&~R);
 endmodule
+```
 
 ## F=(((C.B'.A)+(D.C'.A)+(C.B'.A))')' using NOR gate
-
+```
 module norcombination(A,B,C,D,F);
 input A,B,C,D;
 output F;
