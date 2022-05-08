@@ -37,9 +37,9 @@ Software – Quartus prime
 
 
 ## Program:
+```
 /*
 Program to design a Implementation of combinational logic using universal gates-  and verify its truth table in quartus using Verilog programming.
-```
 Developed by: 212221230025
 RegisterNumber: Evangelin.S 
 */
